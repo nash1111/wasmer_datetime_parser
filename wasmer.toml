@@ -1,0 +1,20 @@
+[package]
+name = 'nash1111/wasmer_datetime_parser'
+version = '0.1.0'
+description = 'Description for package wasmer_datetime_parser'
+
+# See more keys and definitions at https://docs.wasmer.io/registry/manifest
+
+[dependencies]
+
+[[module]]
+name = 'wasmer_datetime_parser'
+source = 'target/wasm32-wasi/release/wasmer_datetime_parser.wasm'
+abi = 'wasi'
+
+[module.interfaces]
+wasi = '0.1.0-unstable'
+
+[[command]]
+name = 'wasmer_datetime_parser'
+module = 'wasmer_datetime_parser'
