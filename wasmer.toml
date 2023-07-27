@@ -1,6 +1,6 @@
 [package]
 name = 'nash1111/wasmer_datetime_parser'
-version = '0.1.5'
+version = '0.1.6'
 description = 'Description for package wasmer_datetime_parser'
 
 # See more keys and definitions at https://docs.wasmer.io/registry/manifest
